@@ -707,7 +707,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 843461539}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1914072559}
+        m_MethodName: click2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &843461539
@@ -1818,6 +1829,9 @@ GameObject:
   - component: {fileID: 1914072556}
   - component: {fileID: 1914072555}
   - component: {fileID: 1914072554}
+  - component: {fileID: 1914072559}
+  - component: {fileID: 1914072558}
+  - component: {fileID: 1914072560}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1901,6 +1915,55 @@ RectTransform:
   m_AnchoredPosition: {x: 151, y: 2}
   m_SizeDelta: {x: 300, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1914072558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1914072553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d361b1e2ed3094384d22b2408fd1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1914072559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1914072553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299e3b1a6e869b44dbaab7f416419950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listImgaeTextures:
+  - path: ext
+    image: {fileID: 2800000, guid: 1c5e70c40b5b7684f89e4e2188d244d5, type: 3}
+  impact: {fileID: 8300000, guid: 85e645350f4506e4eb9a133622f74cc9, type: 3}
+--- !u!114 &1914072560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1914072553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475ddbe0ba873e94fa22d2e263f4cedc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLevel: 0
+  questionBases: []
+  currentQuestion:
+    question: 
+    type: 
+    answers: []
+    result:
+      id: 0
+      content: 
+      imagePath: 
+    soundPath: 
+    imagePath: 
 --- !u!1 &1931357127
 GameObject:
   m_ObjectHideFlags: 0
@@ -2386,7 +2449,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2007710659}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1914072559}
+        m_MethodName: click1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2007710659

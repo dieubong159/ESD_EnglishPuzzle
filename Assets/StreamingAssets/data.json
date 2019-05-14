@@ -1,0 +1,124 @@
+﻿{
+  "levels": [
+    {
+      "level": 1,
+      "questions": [
+        {
+          "question": "Quiz 1",
+          "type": "QuizType2",
+          "answers": [
+            {
+              "id": 1,
+              "content": "This is answer with id 1"
+            },
+            {
+              "id": 2,
+              "content": "This is answer with id 2"
+            },
+            {
+              "id": 3,
+              "content": "This is answer with id 3"
+            },
+            {
+              "id": 4,
+              "content": "This is answer with id 4"
+            }
+          ],
+          "result": {
+            "id": 1,
+            "content": "This is answer with id 1"
+          },
+          "imagePath": "ext"
+        },
+        {
+          "question": "Quiz 2",
+          "type": "QuizType1",
+          "answers": [
+            {
+              "id": 5,
+              "content": "This is answer with id 1"
+            },
+            {
+              "id": 6,
+              "content": "This is answer with id 2"
+            },
+            {
+              "id": 7,
+              "content": "This is answer with id 3"
+            },
+            {
+              "id": 8,
+              "content": "This is answer with id 4"
+            }
+          ],
+          "result": {
+            "id": 6,
+            "content": "This is answer with id 6"
+          },
+          "imagePath": "ext"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "questions": [
+        {
+          "question": "Quiz 1",
+          "type": "QuizType1",
+          "answers": [
+            {
+              "id": 1,
+              "content": "This is answer with id 1"
+            },
+            {
+              "id": 2,
+              "content": "This is answer with id 2"
+            },
+            {
+              "id": 3,
+              "content": "This is answer with id 3"
+            },
+            {
+              "id": 4,
+              "content": "This is answer with id 4"
+            }
+          ],
+          "result": {
+            "id": 1,
+            "content": "This is answer with id 1"
+          },
+          "path": "abc.mp3"
+        },
+        {
+          "question": "Quiz 2",
+          "type": "QuizType1",
+          "answers": [
+            {
+              "id": 5,
+              "content": "This is answer with id 1"
+            },
+            {
+              "id": 6,
+              "content": "This is answer with id 2"
+            },
+            {
+              "id": 7,
+              "content": "This is answer with id 3"
+            },
+            {
+              "id": 8,
+              "content": "This is answer with id 4"
+            }
+          ],
+          "result": {
+            "id": 6,
+            "content": "This is answer with id 6"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+

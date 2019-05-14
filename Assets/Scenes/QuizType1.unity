@@ -625,6 +625,7 @@ GameObject:
   - component: {fileID: 486473825}
   - component: {fileID: 486473827}
   - component: {fileID: 486473826}
+  - component: {fileID: 486473828}
   m_Layer: 5
   m_Name: GamePanel
   m_TagString: Untagged
@@ -689,6 +690,24 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 486473824}
   m_CullTransparentMesh: 0
+--- !u!114 &486473828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 486473824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a016712b23365e142b2ea7a0e8f9b8d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  answerButtons:
+  - btnAnswer: {fileID: 571370042}
+  - btnAnswer: {fileID: 2128153415}
+  - btnAnswer: {fileID: 586655815}
+  - btnAnswer: {fileID: 346814195}
+  question: {fileID: 1307700302}
+  imageQuestion: {fileID: 1384677446}
 --- !u!1 &493603509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,7 +1522,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Who is the celebrated actor and decorated combat bomber pilot picture ?
+  m_Text: 
 --- !u!222 &1307700303
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1565,7 +1584,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 1c5e70c40b5b7684f89e4e2188d244d5, type: 3}
+  m_Texture: {fileID: 0}
   m_UVRect:
     serializedVersion: 2
     x: 0
